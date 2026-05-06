@@ -79,7 +79,7 @@ export default function LandingPage() {
         {
           title: "Ehrliche Beratung",          description: "Transparente Kommunikation zu allen Reparaturkosten – ohne versteckte Überraschungen.",          imageSrc: "http://img.b2bpic.net/free-photo/blur-hospital-clinic-interior_74190-5210.jpg",          titleImageSrc: "http://img.b2bpic.net/free-photo/abstract-blur-shopping-mall_1203-7901.jpg",          buttonText: "Mehr erfahren"},
         {
-          title: "Lange Erreichbarkeit",          description: "Wir sind montags bis samstags durchgehend für Sie da: Öffnungszeiten bis 19:30 Uhr!",          imageSrc: "http://img.b2bpic.net/free-photo/call-center-operator-assisting-users-with-installing-software_482257-117872.jpg",          titleImageSrc: "http://img.b2bpic.net/free-photo/businessman-using-smartphone-computer-analize-information_1421-674.jpg",          buttonText: "Kontakt"},
+          title: "Lange Erreichbarkeit",          description: "Wir sind montags bis freitags von 09:00 bis 19:30 Uhr und samstags bis 17:00 Uhr für Sie da.",          imageSrc: "http://img.b2bpic.net/free-photo/call-center-operator-assisting-users-with-installing-software_482257-117872.jpg",          titleImageSrc: "http://img.b2bpic.net/free-photo/businessman-using-smartphone-computer-analize-information_1421-674.jpg",          buttonText: "Kontakt"},
       ]}
     />
   </div>
@@ -92,7 +92,7 @@ export default function LandingPage() {
       metrics={[
         { id: "m1", value: "4.8/5", description: "Google Sterne-Bewertung" },
         { id: "m2", value: "250+", description: "Glückliche Kundenbewertungen" },
-        { id: "m3", value: "19:30", description: "Mo-Sa bis spät für Sie da" },
+        { id: "m3", value: "Mo-Fr 09:00-19:30", description: "Samstag bis 17:00 Uhr" },
       ]}
       metricsAnimation="slide-up"
     />
@@ -148,7 +148,7 @@ export default function LandingPage() {
       logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778063716281-l4ot01j8.jpg"
       columns={[
         { title: "Kontakt", items: [{ label: "Otto Glöckel-Str 1, Traiskirchen", href: "#" }, { label: "02252 521031", href: "tel:02252521031" }] },
-        { title: "Öffnungszeiten", items: [{ label: "Mo-Fr: bis 19:30, Sa: bis 17:00", href: "#" }] },
+        { title: "Öffnungszeiten", items: [{ label: "Mo-Fr: 09:00-19:30, Sa: bis 17:00", href: "#" }] },
         { title: "Mehr", items: [{ label: "Datenschutz", href: "#" }, { label: "Impressum", href: "#" }] },
       ]}
       copyrightText="© 2025 Austro-Tel Handyshop"
