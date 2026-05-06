@@ -115,6 +115,7 @@ export default function LandingPage() {
 
   <div id="faq" data-section="faq">
       <FaqSplitMedia
+      useInvertedBackground={false}
       textboxLayout="split"
       faqs={[
         { id: "f1", title: "Öffnungszeiten", content: "Besuchen Sie uns montags bis samstags von 09:00 bis 19:30 Uhr." },
