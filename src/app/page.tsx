@@ -134,9 +134,10 @@ export default function LandingPage() {
       <ContactText
       useInvertedBackground={true}
       background={{ variant: "rotated-rays-static" }}
-      text="Besuchen Sie uns in der Otto Glöckel-Straße 1 in Traiskirchen. Wir freuen uns auf Ihren Besuch!"
+      text="Besuchen Sie uns in der Otto Glöckel-Straße 1 in Traiskirchen. Wir freuen uns auf Ihren Besuch! Kontaktieren Sie uns gerne unter: 06646370015."
       buttons={[
         { text: "02252 521031", href: "tel:02252521031" },
+        { text: "0664 6370015", href: "tel:06646370015" },
         { text: "Wegbeschreibung", href: "#" },
       ]}
     />
@@ -147,7 +148,7 @@ export default function LandingPage() {
       logoText="Austro-Tel"
       logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778063716281-l4ot01j8.jpg"
       columns={[
-        { title: "Kontakt", items: [{ label: "Otto Glöckel-Str 1, Traiskirchen", href: "#" }, { label: "02252 521031", href: "tel:02252521031" }] },
+        { title: "Kontakt", items: [{ label: "Otto Glöckel-Str 1, Traiskirchen", href: "#" }, { label: "02252 521031", href: "tel:02252521031" }, { label: "0664 6370015", href: "tel:06646370015" }] },
         { title: "Öffnungszeiten", items: [{ label: "Mo-Fr: 09:00-19:30, Sa: bis 17:00", href: "#" }] },
         { title: "Mehr", items: [{ label: "Datenschutz", href: "#" }, { label: "Impressum", href: "#" }] },
       ]}
