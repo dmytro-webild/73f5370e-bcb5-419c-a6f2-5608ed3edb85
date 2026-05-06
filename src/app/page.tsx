@@ -30,26 +30,12 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarLayoutFloatingOverlay
       navItems={[
-        {
-          name: "Home",
-          id: "hero",
-        },
-        {
-          name: "Services",
-          id: "services",
-        },
-        {
-          name: "Testimonials",
-          id: "testimonials",
-        },
-        {
-          name: "FAQ",
-          id: "faq",
-        },
-        {
-          name: "Contact",
-          id: "contact",
-        },
+        { name: "Home", id: "hero" },
+        { name: "About", id: "services" },
+        { name: "Benefits", id: "features" },
+        { name: "Testimonials", id: "testimonials" },
+        { name: "FAQ", id: "faq" },
+        { name: "Contact", id: "contact" },
       ]}
       brandName="Austro-Tel"
     />
@@ -57,20 +43,12 @@ export default function LandingPage() {
 
   <div id="hero" data-section="hero">
       <HeroBillboardScroll
-      background={{
-        variant: "gradient-bars",
-      }}
-      title="Ihr zuverlässiger Partner für Mobilfunk in Traiskirchen"
-      description="Ob schnelle Display-Reparatur, technische Hilfe oder neue Smartphones – Austro-Tel steht für fachliche Kompetenz, faire Preise und persönlichen Service."
+      background={{ variant: "gradient-bars" }}
+      title="Austro-Tel Handyshop Traiskirchen"
+      description="Ihr spezialisierter Ansprechpartner für Mobilfunk: Von professionellen Reparaturen bis hin zu individueller Beratung und Top-Hardware – wir sind für Sie da."
       buttons={[
-        {
-          text: "Jetzt anrufen",
-          href: "tel:02252521031",
-        },
-        {
-          text: "Standort finden",
-          href: "#contact",
-        },
+        { text: "Jetzt anrufen", href: "tel:02252521031" },
+        { text: "Standort finden", href: "#contact" },
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/master-holds-new-screen-replacement-disassembled-smartphone-his-laboratory-tool-kit-with-instruments-laptop-front-him-white-table-close-view_346278-1202.jpg"
     />
@@ -79,16 +57,9 @@ export default function LandingPage() {
   <div id="services" data-section="services">
       <TextSplitAbout
       useInvertedBackground={false}
-      title="Warum Austro-Tel?"
+      title="Über uns"
       description={[
-        "Mit über 250 positiven Rezensionen sind wir in Traiskirchen die erste Wahl für Ihre Anliegen rund ums Smartphone.",
-        "Wir bieten nicht nur schnelle Reparaturen, sondern eine ehrliche und transparente Beratung. Unser Fokus liegt auf nachhaltigem Service, der überzeugt.",
-      ]}
-      buttons={[
-        {
-          text: "Unsere Leistungen",
-          href: "#services",
-        },
+        "Austro-Tel Traiskirchen ist Ihre erste Adresse für fachmännische Smartphone-Services. Seit Jahren bieten wir transparente Preise, eine ehrliche Kundenberatung und höchste technische Präzision.",        "Mit über 250 positiven Rezensionen garantieren wir Ihnen einen Service, bei dem Ihr Gerät und Ihre Zufriedenheit im Mittelpunkt stehen."
       ]}
     />
   </div>
@@ -99,55 +70,28 @@ export default function LandingPage() {
       textboxLayout="split"
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={true}
+      title="Unsere exklusiven Vorteile"
+      description="Warum Kunden Austro-Tel vertrauen:"
       features={[
         {
-          title: "Handy-Reparaturen",
-          description: "Professionelle Display- und Hardware-Instandsetzung in Rekordzeit.",
-          imageSrc: "http://img.b2bpic.net/free-photo/hands-with-surgical-gloves-disinfecting-smartphone_23-2148561087.jpg",
-          titleImageSrc: "http://img.b2bpic.net/free-photo/hand-uses-tweezer-pick-up-small-crew-that-holds-battery-motherboard-repairing-broken-electronic-service_346278-1783.jpg",
-          buttonText: "Mehr erfahren",
-        },
+          title: "Express-Reparatur",          description: "Professionelle Display- und Hardware-Instandsetzung – oft noch am selben Tag fertig.",          imageSrc: "http://img.b2bpic.net/free-photo/hands-with-surgical-gloves-disinfecting-smartphone_23-2148561087.jpg",          titleImageSrc: "http://img.b2bpic.net/free-photo/hand-uses-tweezer-pick-up-small-crew-that-holds-battery-motherboard-repairing-broken-electronic-service_346278-1783.jpg",          buttonText: "Service anfragen"},
         {
-          title: "Große Auswahl",
-          description: "Aktuelle Smartphones und passendes Zubehör direkt vor Ort erhältlich.",
-          imageSrc: "http://img.b2bpic.net/free-photo/blur-hospital-clinic-interior_74190-5210.jpg",
-          titleImageSrc: "http://img.b2bpic.net/free-photo/abstract-blur-shopping-mall_1203-7901.jpg",
-          buttonText: "Angebote ansehen",
-        },
+          title: "Ehrliche Beratung",          description: "Transparente Kommunikation zu allen Reparaturkosten – ohne versteckte Überraschungen.",          imageSrc: "http://img.b2bpic.net/free-photo/blur-hospital-clinic-interior_74190-5210.jpg",          titleImageSrc: "http://img.b2bpic.net/free-photo/abstract-blur-shopping-mall_1203-7901.jpg",          buttonText: "Mehr erfahren"},
         {
-          title: "Experten-Beratung",
-          description: "Persönliche Unterstützung bei technischen Problemen und Tarifen.",
-          imageSrc: "http://img.b2bpic.net/free-photo/call-center-operator-assisting-users-with-installing-software_482257-117872.jpg",
-          titleImageSrc: "http://img.b2bpic.net/free-photo/businessman-using-smartphone-computer-analize-information_1421-674.jpg",
-          buttonText: "Kontakt aufnehmen",
-        },
+          title: "Lange Erreichbarkeit",          description: "Wir sind montags bis samstags durchgehend für Sie da: Öffnungszeiten bis 19:30 Uhr!",          imageSrc: "http://img.b2bpic.net/free-photo/call-center-operator-assisting-users-with-installing-software_482257-117872.jpg",          titleImageSrc: "http://img.b2bpic.net/free-photo/businessman-using-smartphone-computer-analize-information_1421-674.jpg",          buttonText: "Kontakt"},
       ]}
-      title="Unser Serviceangebot"
-      description="Wir verbinden technische Perfektion mit persönlicher Beratung für ein sorgenfreies Nutzererlebnis."
     />
   </div>
 
   <div id="metrics" data-section="metrics">
       <MetricCardFourteen
       useInvertedBackground={false}
-      title="Erfolge, die Vertrauen schaffen"
-      tag="Unser Qualitätsversprechen"
+      title="Austro-Tel in Zahlen"
+      tag="Ihr lokales Service-Team"
       metrics={[
-        {
-          id: "m1",
-          value: "4.8",
-          description: "Sterne Bewertung bei Google",
-        },
-        {
-          id: "m2",
-          value: "250+",
-          description: "Zufriedene Rezensionen",
-        },
-        {
-          id: "m3",
-          value: "19:30",
-          description: "Täglich für Sie da",
-        },
+        { id: "m1", value: "4.8/5", description: "Google Sterne-Bewertung" },
+        { id: "m2", value: "250+", description: "Glückliche Kundenbewertungen" },
+        { id: "m3", value: "19:30", description: "Mo-Sa bis spät für Sie da" },
       ]}
       metricsAnimation="slide-up"
     />
@@ -158,79 +102,28 @@ export default function LandingPage() {
       animationType="slide-up"
       textboxLayout="split"
       useInvertedBackground={true}
-      testimonials={[
-        {
-          id: "t1",
-          name: "Max M.",
-          handle: "@max",
-          testimonial: "Schnelle Reparatur und super freundliche Beratung. Mein Handy läuft wieder einwandfrei!",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/bike-shop-with-shop-assistant_23-2148138705.jpg",
-        },
-        {
-          id: "t2",
-          name: "Julia S.",
-          handle: "@julia",
-          testimonial: "Sehr fairer Preis und transparente Abwicklung. Kann ich nur weiterempfehlen.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/side-view-smiley-bohemian-woman_23-2149726236.jpg",
-        },
-        {
-          id: "t3",
-          name: "Lukas K.",
-          handle: "@lukas",
-          testimonial: "Top Service in Traiskirchen. Kompetent und zuverlässig wie immer.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/young-loader-holding-house-model-uniform-front-view_176474-21361.jpg",
-        },
-        {
-          id: "t4",
-          name: "Maria B.",
-          handle: "@maria",
-          testimonial: "Habe mein neues iPhone hier gekauft, tolle Auswahl und Beratung.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/modern-man-casual-outfit-showing-shopping-bag-okay-sign-winking-camera-recommending-shop-s_1258-164204.jpg",
-        },
-        {
-          id: "t5",
-          name: "Stefan R.",
-          handle: "@stefan",
-          testimonial: "Problem wurde sofort gelöst. Tolles Team vor Ort!",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-smiley-woman-with-coffee-cup_23-2149412558.jpg",
-        },
-      ]}
+      title="Erfahrungen"
+      description="Kundenfeedback unserer Community in Traiskirchen."
       showRating={true}
-      title="Kundenstimmen"
-      description="Was unsere Kunden über den Austro-Tel Handyshop sagen."
+      testimonials={[
+        { id: "t1", name: "Max M.", handle: "@max", testimonial: "Schnellste Reparatur meines Lebens!", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/bike-shop-with-shop-assistant_23-2148138705.jpg" },
+        { id: "t2", name: "Julia S.", handle: "@julia", testimonial: "Sehr fairer Umgang und tolle Beratung.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/side-view-smiley-bohemian-woman_23-2149726236.jpg" },
+        { id: "t3", name: "Lukas K.", handle: "@lukas", testimonial: "Kompetenz, die man merkt.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/young-loader-holding-house-model-uniform-front-view_176474-21361.jpg" },
+      ]}
     />
   </div>
 
   <div id="faq" data-section="faq">
       <FaqSplitMedia
       textboxLayout="split"
-      useInvertedBackground={false}
       faqs={[
-        {
-          id: "f1",
-          title: "Bieten Sie auch Express-Reparaturen an?",
-          content: "Ja, wir bemühen uns, die meisten Display-Schäden innerhalb kurzer Zeit noch am selben Tag zu beheben.",
-        },
-        {
-          id: "f2",
-          title: "Wie lange sind Ihre Öffnungszeiten?",
-          content: "Wir sind von Montag bis Samstag bis 19:30 Uhr persönlich für Sie in Traiskirchen erreichbar.",
-        },
-        {
-          id: "f3",
-          title: "Verkaufen Sie auch Zubehör für ältere Handymodelle?",
-          content: "Unser Lager umfasst eine große Auswahl, gerne schauen wir für Sie nach, ob das passende Teil lagernd ist.",
-        },
+        { id: "f1", title: "Öffnungszeiten", content: "Besuchen Sie uns montags bis samstags von 09:00 bis 19:30 Uhr." },
+        { id: "f2", title: "Express-Service", content: "Viele Reparaturen führen wir noch am selben Tag durch." },
+        { id: "f3", title: "Zubehör", content: "Wir haben eine große Auswahl an Schutzfolien, Hüllen und Zubehör lagernd." },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/bike-shop-with-shop-assistant_23-2148138769.jpg"
       mediaAnimation="slide-up"
-      title="Häufige Fragen"
-      description="Alles, was Sie über unsere Services bei Austro-Tel wissen müssen."
+      title="Fragen & Antworten"
+      description="Die wichtigsten Informationen auf einen Blick."
       faqsAnimation="slide-up"
     />
   </div>
@@ -238,19 +131,11 @@ export default function LandingPage() {
   <div id="contact" data-section="contact">
       <ContactText
       useInvertedBackground={true}
-      background={{
-        variant: "rotated-rays-static",
-      }}
-      text="Besuchen Sie uns direkt in der Otto Glöckel-Straße 1. Wir freuen uns auf Ihren Besuch!"
+      background={{ variant: "rotated-rays-static" }}
+      text="Besuchen Sie uns in der Otto Glöckel-Straße 1 in Traiskirchen. Wir freuen uns auf Ihren Besuch!"
       buttons={[
-        {
-          text: "02252 521031",
-          href: "tel:02252521031",
-        },
-        {
-          text: "Wegbeschreibung",
-          href: "https://maps.google.com",
-        },
+        { text: "02252 521031", href: "tel:02252521031" },
+        { text: "Wegbeschreibung", href: "#" },
       ]}
     />
   </div>
@@ -259,43 +144,11 @@ export default function LandingPage() {
       <FooterBaseReveal
       logoText="Austro-Tel"
       columns={[
-        {
-          title: "Kontakt",
-          items: [
-            {
-              label: "Otto Glöckel-Str 1, Traiskirchen",
-              href: "#",
-            },
-            {
-              label: "02252 521031",
-              href: "tel:02252521031",
-            },
-          ],
-        },
-        {
-          title: "Öffnungszeiten",
-          items: [
-            {
-              label: "Bis 19:30 Uhr geöffnet",
-              href: "#",
-            },
-          ],
-        },
-        {
-          title: "Mehr",
-          items: [
-            {
-              label: "Datenschutz",
-              href: "#",
-            },
-            {
-              label: "Impressum",
-              href: "#",
-            },
-          ],
-        },
+        { title: "Kontakt", items: [{ label: "Otto Glöckel-Str 1, Traiskirchen", href: "#" }, { label: "02252 521031", href: "tel:02252521031" }] },
+        { title: "Öffnungszeiten", items: [{ label: "Mo-Sa: bis 19:30", href: "#" }] },
+        { title: "Mehr", items: [{ label: "Datenschutz", href: "#" }, { label: "Impressum", href: "#" }] },
       ]}
-      copyrightText="© 2024 Austro-Tel Handyshop"
+      copyrightText="© 2025 Austro-Tel Handyshop"
     />
   </div>
       </ReactLenis>
