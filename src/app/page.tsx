@@ -38,6 +38,7 @@ export default function LandingPage() {
         { name: "Contact", id: "contact" },
       ]}
       brandName="Austro-Tel"
+      logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778063716281-l4ot01j8.jpg"
     />
   </div>
 
@@ -144,6 +145,7 @@ export default function LandingPage() {
   <div id="footer" data-section="footer">
       <FooterBaseReveal
       logoText="Austro-Tel"
+      logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DLX7abrKMHcdx9YbSkGfOjUjyl/uploaded-1778063716281-l4ot01j8.jpg"
       columns={[
         { title: "Kontakt", items: [{ label: "Otto Glöckel-Str 1, Traiskirchen", href: "#" }, { label: "02252 521031", href: "tel:02252521031" }] },
         { title: "Öffnungszeiten", items: [{ label: "Mo-Fr: bis 19:30, Sa: bis 17:00", href: "#" }] },
