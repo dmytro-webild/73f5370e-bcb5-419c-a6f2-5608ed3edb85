@@ -118,7 +118,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       textboxLayout="split"
       faqs={[
-        { id: "f1", title: "Öffnungszeiten", content: "Besuchen Sie uns montags bis samstags von 09:00 bis 19:30 Uhr." },
+        { id: "f1", title: "Öffnungszeiten", content: "Besuchen Sie uns montags bis freitags von 09:00 bis 19:30 Uhr und samstags von 09:00 bis 17:00 Uhr." },
         { id: "f2", title: "Express-Service", content: "Viele Reparaturen führen wir noch am selben Tag durch." },
         { id: "f3", title: "Zubehör", content: "Wir haben eine große Auswahl an Schutzfolien, Hüllen und Zubehör lagernd." },
       ]}
@@ -146,7 +146,7 @@ export default function LandingPage() {
       logoText="Austro-Tel"
       columns={[
         { title: "Kontakt", items: [{ label: "Otto Glöckel-Str 1, Traiskirchen", href: "#" }, { label: "02252 521031", href: "tel:02252521031" }] },
-        { title: "Öffnungszeiten", items: [{ label: "Mo-Sa: bis 19:30", href: "#" }] },
+        { title: "Öffnungszeiten", items: [{ label: "Mo-Fr: bis 19:30, Sa: bis 17:00", href: "#" }] },
         { title: "Mehr", items: [{ label: "Datenschutz", href: "#" }, { label: "Impressum", href: "#" }] },
       ]}
       copyrightText="© 2025 Austro-Tel Handyshop"
